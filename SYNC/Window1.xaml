@@ -1,0 +1,32 @@
+﻿<Window x:Class="SYNC.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SYNC"
+        mc:Ignorable="d"
+        Title="Form2" ResizeMode="NoResize" SizeToContent="WidthAndHeight" FontSize="14.667">
+    <StackPanel Orientation="Horizontal">
+
+        <StackPanel Orientation="Vertical">
+            <Slider Name="slider0" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider1" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider2" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider3" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider4" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider5" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+            <Slider Name="slider6" Width="100" Margin="12" SmallChange="1" Maximum="100"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+            <TextBox Width ="30" Margin="10" Text="0" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="1" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="2" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="3" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="4" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="5" IsReadOnly="True" Focusable="False"/>
+            <TextBox Width ="30" Margin="10" Text="6" IsReadOnly="True" Focusable="False"/>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
